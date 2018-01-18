@@ -3,10 +3,10 @@
 This repository includes data and code contained in jupyter notebooks that were used in the work described in the manuscript.
 Brief descriptions of the files follow.
 
-- Baseline_pipeline.ipynb: This file has the code to generate the baseline performance for predicting bacteriocins WHAT DOES THIS MEAN?
+- Baseline_pipeline.ipynb: This file has the code to generate the baseline performance for predicting bacteriocins. This refers to section 2.2.1 of the paper.
 - Identifying_gene_blocks_for_putative_bacteriocins.ipynb: The identification of 50kb gene blocks for potential bacteriocins.
 - Making_bacteria_wordvectors.ipynb: Generating word vectors for each 3-gram using Uniprot TrEMBL bacteria database.
-- Making_negative_training_set.ipynb: Creating the primary, second, and third negative bacteriocin dataset from Uniprot Swissprot bacteria database. SWISSPROT DOES NOT HAVE A BACTERIA DATABASE, IF YOU GENERATED IT ON OYUR OWN, SAY SO.
+- Making_negative_training_set.ipynb: Creating the primary, second, and third negative bacteriocin dataset from Uniprot Swissprot bacteria protein sequences. 
 - SVM_and_other_models.ipynb: SVM and other model performance with the word2vec representation of amino acid sequences.
 - bidirectional_rnn.ipynb: Bidirectional RNN performance with the word2vec representation of amino acid sequences.
 - all_curated_context_genes_proper.fa: The 1,240 curated context genes using annotation keywords.
