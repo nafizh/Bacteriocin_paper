@@ -1,4 +1,4 @@
-## A Companion to the manuscript "Bacteriocin prediction using Word Embedding with Deep Recurrent Neural Networks", Md-Nafiz Hamid and Iddo Friedberg
+## A companion to the manuscript "Bacteriocin prediction using Word Embedding with Deep Recurrent Neural Networks", Md-Nafiz Hamid and Iddo Friedberg
 
 This repository includes data and code contained in jupyter notebooks that were used in the work described in the manuscript.
 Brief descriptions of the files follow.
