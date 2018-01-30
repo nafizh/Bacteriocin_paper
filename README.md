@@ -1,15 +1,15 @@
-# Bacteriocin paper
-This repository contains all the major jupyter notebooks,and files that were produced for the prediction of bacteriocin. Brief
-descriptions of the files are:
+## A companion to the manuscript "Bacteriocin prediction using Word Embedding with Deep Recurrent Neural Networks", Md-Nafiz Hamid and Iddo Friedberg
 
-- Baseline_pipeline.ipynb: This file has the code to generate the baseline performance for predicting bacteriocins in the paper.
-- Identifying_gene_blocks_for_putative_bacteriocins.ipynb: The identification of 50kb geneblocks for potential bacteriocins.
-- Making_bacteria_wordvectors.ipynb: Generating wordvectors for each 3-gram using Uniprot TrEMBL bacteria database.
-- Making_negative_training_set.ipynb: Creating the primary, second, and third negative bacteriocin dataset from Uniprot Swissprot
-bacteria database.
+This repository includes data and code contained in jupyter notebooks that were used in the work described in the manuscript.
+Brief descriptions of the files follow.
+
+- Baseline_pipeline.ipynb: This file has the code to generate the baseline performance for predicting bacteriocins. This refers to section 2.2.1 of the paper.
+- Identifying_gene_blocks_for_putative_bacteriocins.ipynb: The identification of 50kb gene blocks for potential bacteriocins.
+- Making_bacteria_wordvectors.ipynb: Generating word vectors for each 3-gram using Uniprot TrEMBL bacteria database.
+- Making_negative_training_set.ipynb: Creating the primary, second, and third negative bacteriocin dataset from Uniprot Swissprot bacteria protein sequences. 
 - SVM_and_other_models.ipynb: SVM and other model performance with the word2vec representation of amino acid sequences.
 - bidirectional_rnn.ipynb: Bidirectional RNN performance with the word2vec representation of amino acid sequences.
-- all_curated_context_genes_proper.fa: The 1240 curated context genes using annotation keywords.
+- all_curated_context_genes_proper.fa: The 1,240 curated context genes using annotation keywords.
 - all_lactobacillus_sequences_from_geneblocks: All the sequences from all of the 50kb geneblocks.
 - final_NN_model.h5: Weights for the final RNN model used for bacteriocin prediction on the geneblock sequences.
 - primary_bacteriocin_training_set: The primary negative bacteriocin set used to train the final model.
