@@ -1,6 +1,8 @@
-## A companion to the manuscript "Bacteriocin prediction using Word Embedding with Deep Recurrent Neural Networks", Md-Nafiz Hamid and Iddo Friedberg
+## "Identifying Antimicrobial Peptides using Word Embedding with Deep Recurrent Neural Networks"
+#### Md-Nafiz Hamid and Iddo Friedberg
 
-This repository includes data and code contained in jupyter notebooks that were used in the work described in the manuscript.
+This repository includes data, and code contained in jupyter notebooks that were used in the work described in the manuscript. You can install the NeuBI software from this [repository](https://github.com/nafizh/NeuBI).
+
 Brief descriptions of the files follow.
 
 - Baseline_pipeline.ipynb: This file has the code to generate the baseline performance for predicting bacteriocins. This refers to section 2.2.1 of the paper.
